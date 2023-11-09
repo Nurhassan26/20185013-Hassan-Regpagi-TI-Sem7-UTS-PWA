@@ -1,0 +1,45 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profil Mahasiswa</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Profil Mahasiswa</h1>
+            </div>
+            <div class="profile">
+                <img src="gua.JPG" alt="Profile Picture">
+                <h2>Muhamad Nur Hassan</h2>
+                <p>NIM : 20185013</p>
+                <p>Kelas : Reguler</p>
+                <p>Semester : 7</p>
+                <p>Mata kuliah :  Cloud Computing & Mobile Programming</p>
+            </div>
+            <div class="details">
+                <h2>Tujuan Belajar PWA</h2>
+                <p>biar bisa pamer ke orang2 yang buta map kalo maen ml.</p>
+            </div>
+            <body>
+                <h1>Selamat datang di PWA dengan Push Notification dan Caching!</h1>
+                <button id="subscribeButton">Subscribe to Push Notifications</button>
+                <div id="notificationContainer"></div>
+            </body>
+            <div class="section">
+                <h3>Berikan Komentar</h3>
+                <div class="comment-form">
+                    <textarea placeholder="Masukkan komentar Anda"></textarea><br>
+                    <button>Kirim Komentar</button>
+                </div>
+            </div>
+        </div>
+        <script src="notification.js"></script>
+        <script src="service-worker.js"></script>
+        <script src="main.js"></script>
+        <script src="indexedDB.js"></script>
+        <script src="app.js"></script>
+        <script src="manifest.json"></script>
+    </body>
+</html>
